@@ -18,7 +18,8 @@ console.log(mult(3))
 console.log(div(2))
 
 
-buttons.onclick = function(e){
+buttons.map(button => button.onclick = function(e){
+    console.log(e);
     console.log(e.target.value);
-}
+});
 
