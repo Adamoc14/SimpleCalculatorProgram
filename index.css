@@ -99,7 +99,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 .buttons_container, 
 .operations_container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding: 1em;
 }
@@ -110,4 +110,12 @@ input[type=range]:focus::-webkit-slider-runnable-track {
     margin: .2em;
     border-radius: 50%;
     box-shadow: 1px 1px 1px 1px #E0805E;
+}
+
+.delete_button {
+    background: blanchedalmond;
+}
+
+.clear_button, .delete_button {
+    padding: .2em 2em;
 }
