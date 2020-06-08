@@ -76,3 +76,10 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 	background: cadetblue;
 	flex-direction: column;
 }
+
+.main_calculator_outer {
+	padding: 1em 2em;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2em;
+}
