@@ -116,6 +116,10 @@ input[type=range]:focus::-webkit-slider-runnable-track {
     background: blanchedalmond;
 }
 
+.clear_button{
+    background: antiquewhite;
+}
+
 .clear_button, .delete_button {
     padding: .2em 2em;
 }
