@@ -79,7 +79,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 
 .main_calculator_outer {
     padding: 1em 2em;
-    padding-bottom: 5em;
+    padding-bottom: 2em;
     background: beige;
     display: flex;
     flex-direction: column;
@@ -94,10 +94,11 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 .calculator_inner {
     display: flex;
     flex-direction: column;
-    width: 31vw;
+    width: 36vw;
 }
 
-.buttons_container {
+.buttons_container, 
+.operations_container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
