@@ -78,8 +78,6 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 
 .main_calculator_outer {
-    padding: 1em 2em;
-    padding-bottom: 2em;
     background: beige;
     border-radius: 20px;
     display: flex;
@@ -103,10 +101,11 @@ input[type=range]:focus::-webkit-slider-runnable-track {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 1em;
 }
 
 .number_button {
-    padding: 1em 1.5em;
+    padding: .6em 1em;
     background: #FCFCFC;
     margin: .2em;
     border-radius: 50%;
