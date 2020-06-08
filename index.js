@@ -22,6 +22,7 @@ buttons.filter(button => button.dataset.number ? number_buttons.push(button) : o
 console.log(buttons , number_buttons, operational_buttons);
 
 number_buttons.map(number_button => number_button.onclick = function(e){
-    console.log(e);
+    state = parse(e.target.dataset.number);
+    console.log(state);
 });
 
