@@ -1,6 +1,6 @@
 // Variable Declarations and Function Definitions
 let state = 0;
-let buttons = document.getElementsByClassName('number_button');
+let buttons = Array.from(document.getElementsByClassName('number_button'));
 console.log(buttons);
 const sum = a => state += a;
 const minus = b => state -= b;
