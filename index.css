@@ -74,12 +74,12 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 	min-height: 100vh;
 	display: flex;
 	background: cadetblue;
-	flex-direction: column;
+	justify-content: center;
 }
 
 .main_calculator_outer {
     padding: 1em 2em;
-    padding-bottom: 10em;
+    padding-bottom: 5em;
     background: beige;
     display: flex;
     flex-direction: column;
