@@ -10,4 +10,4 @@ const clear = () => state = 0;
 console.log(sum(12))
 console.log(minus(2))
 console.log(mult(3))
-console.log(divide(2))
+console.log(div(2))
